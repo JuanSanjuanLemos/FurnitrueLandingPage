@@ -7,4 +7,8 @@
     border: none;
     color: white;
     margin-top: 2.8rem;
+    &:hover{
+        background-color: darken($secundary-color, 10%);
+        cursor: pointer;
+    }
 }

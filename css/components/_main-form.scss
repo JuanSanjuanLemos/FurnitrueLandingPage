@@ -1,8 +1,7 @@
 .main-form{
     display: flex;
     flex-direction: column;
-    width: 25%;
-    margin: 3%;
+    width: 28%;
     text-transform: capitalize;
     label{
         @include normal-font;
