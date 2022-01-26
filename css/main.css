@@ -1,3 +1,61 @@
+.benefits-section {
+  margin-left: 7%;
+  margin-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7rem;
+}
+
+.benefits-section div {
+  width: 37%;
+}
+
+.benefits-section div dl div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  width: auto;
+}
+
+.benefits-section div dl div .back-img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #6D4C41;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.benefits-section div dl div .wrapper-dtdd {
+  display: block;
+}
+
+.benefits-section div dl div .wrapper-dtdd dt {
+  font-family: 'Dongle', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 2.5rem;
+}
+
+.benefits-section div dl div .wrapper-dtdd dd {
+  font-family: 'Dongle', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 2.2rem;
+  color: #bb988c;
+}
+
 .img-product {
   position: relative;
   background-image: url(../assets/img/family-sofa.png);
@@ -75,7 +133,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 28%;
-  text-transform: capitalize;
 }
 
 .main-form label {
@@ -175,6 +232,7 @@
   font-size: 3.2rem;
   font-weight: 700;
   color: #302E2C;
+  text-transform: capitalize;
 }
 
 .main-title span {
