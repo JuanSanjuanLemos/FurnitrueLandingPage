@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" style="font-size: 10px;">
 <head>
     <meta charset="UTF-8">
     <title>Furniture</title>
@@ -8,11 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/main-function.css">
-    <link rel="stylesheet" href="css/components/main-header.css">
-    <link rel="stylesheet" href="css/components/main-navigation.css">
-    <link rel="stylesheet" href="css/components/wrapper-navigation.css">
 </head>
 <body>
     <header class="main-header">
@@ -28,6 +25,23 @@
             <img src="assets/img/shopping-cart-icon.png" alt="search-icon">
         </div>
     </header>
-    <hr>
+    <section class="main-section">
+        <form action="">
+            <h1>Get the best recommendations For your lovely room</h1>
+            <label for="room">Room Type</label>
+            <select name="romm" id="room">
+                <option value="">
+                    Family Room
+                </option>
+            </select>
+            <label for="interior">Interior Style</label>
+            <select name="interior" id="interior">
+                <option value="">
+                    Scandinavian
+                </option>
+            </select>
+        </form>
+        <img src="assets/img/family-sofa.png" alt="Family Room sofa">
+    </section>
 </body>
 </html>

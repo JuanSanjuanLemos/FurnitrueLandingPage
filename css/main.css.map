@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,aAAa;CACjC;;ACJD,AAAA,YAAY,CAAA;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACzB;;ACND,AAAA,gBAAgB,CAAA;EACZ,eAAe,EAAE,IAAI;EACrB,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,OAAO;CACjB;;ACND,AAAA,mBAAmB,CAAA;EACf,OAAO,EAAE,IAAI;EACb,GAAG,EAAC,MAAM;CACb;;ACHD,AAAA,aAAa,CAAA;EACT,UAAU,EAAE,iBAAiB;EAC7B,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "main.scss",
+        "components/_main-function.scss",
+        "components/_main-header.scss",
+        "components/_main-navigation.scss",
+        "components/_wrapper-navigation.scss",
+        "components/_main-section.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

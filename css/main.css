@@ -1,0 +1,43 @@
+.main-function {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 8rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+}
+
+.main-navigation {
+  text-decoration: none;
+  font-family: 'Dongle', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #302E2C;
+}
+
+.wrapper-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.main-section {
+  border-top: 1px solid #d3d0d0;
+  padding-top: 3rem;
+}
+/*# sourceMappingURL=main.css.map */
