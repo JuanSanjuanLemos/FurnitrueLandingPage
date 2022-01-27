@@ -1,13 +1,9 @@
 .main-section{
+    @include border-top;
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px solid #d3d0d0;
     justify-content: center;
     align-items: center;
     padding-top: 3rem;
     gap: 5rem;
-}
-
-@media screen {
-    
 }

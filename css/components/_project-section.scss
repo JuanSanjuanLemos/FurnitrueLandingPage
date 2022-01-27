@@ -1,5 +1,6 @@
 .project-section{
     display: grid;
+    margin-top: 8rem;
     grid-template-columns: 42.6rem 30.6rem 30.6rem 40.2rem;
     grid-template-rows: 40rem 21rem 21rem;
     div{
@@ -13,7 +14,8 @@
             }
             p{
                 @include normal-font;
-                font-size: 2.2rem;
+                font-size: 2.5rem;
+                color: #fff;
             }
             .main-button{
                 background-color: #fff;
@@ -22,7 +24,7 @@
             }
             a{
                 @include normal-font;
-                font-size: 2rem;
+                font-size: 2.5rem;
                 color:#fff;
                 margin-left: 3.2rem;
             }
