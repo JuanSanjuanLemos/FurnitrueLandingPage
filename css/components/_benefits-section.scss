@@ -1,11 +1,12 @@
 .benefits-section{
-    margin-left: 7%;
     margin-top: 8rem;
     display: flex;
     justify-content: center;
     gap: 7rem;
     div{
-        width: 37%;
+        h1{
+            width: 50%;
+        }
         dl{
             div{
                 display: flex;
@@ -40,5 +41,4 @@
                 
         } 
     }
-    
 }
