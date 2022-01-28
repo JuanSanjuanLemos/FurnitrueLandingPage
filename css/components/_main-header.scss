@@ -4,4 +4,11 @@
     align-items: center;
     padding-top: 2.8rem;
     padding-bottom: 2.8rem;
+    .menu-img{
+        display: none;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+    }
 }

@@ -25,7 +25,8 @@
         margin-top: 3.6rem;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 3rem;
         li{
             &:first-child{
                 background-color: $secundary-color;

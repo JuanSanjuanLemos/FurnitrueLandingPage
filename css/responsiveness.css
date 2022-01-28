@@ -1,8 +1,11 @@
+html{
+    font-size: 10px;
+}
 
 @media (max-width:1350px) {
     .project-section{
         grid-template-columns: 1.5fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 2fr 2fr;
+        grid-template-rows: 1fr 0.8fr 0.8fr 1.8fr 1.8fr;
     }
     .project-section .div{  
         grid-column: 1/3;
@@ -34,11 +37,85 @@
     }
 }
 
-
-@media (max-width:500px) {
-    .project-section{
-        grid-template-rows: 1fr 0.5fr 0.5fr 1fr 1fr;
+@media(max-width:1180px){
+    .main-form{
+        width: 90%;
     }
 }
+
+@media (max-width:1000px) {
+    .project-section{
+        grid-template-rows: 1fr 0.7fr 0.7fr 1.5fr 1.5fr;
+    }
+}
+
+@media (max-width:950px){
+    .benefits-section .benefit-img{
+            width: 30%;
+            height: 30%;
+        }
+    }
+}
+
+@media (max-width:950px){
+    .benefits-section .benefit-img{
+            width: 30%;
+            height: 30%;
+        }
+}
+
+@media (max-width:750px){
+    .benefits-section .benefit-img{
+            display: none;
+        }
+    .project-section{
+        grid-template-rows: 1fr 0.5fr 0.5fr 1.3fr 1.3fr;
+    }
+}
+
+@media (max-width:650px) {
+    .project-section{
+        grid-template-rows: 1fr 0.35fr 0.35fr 1.5fr 1.5fr;
+    }
+}
+
+@media (max-width:600px){
+    .img-product{
+        max-width: 98%;
+        min-width: 30rem;
+        height: 73vw;
+        min-height: 23rem;
+    }
+}
+
+@media (max-width:570px){
+    header .wrapper-full{
+        display: none;
+    }
+    .main-header .main-logo{
+        width: 40%;
+    }
+    .main-header{
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .main-header .menu-img{
+        display: block;
+        width: 5%;
+    }
+}
+
+@media (max-width:500px) {
+    html{
+        font-size: 7px;
+    }
+    .project-section{
+        grid-template-rows: 1fr 0.4fr 0.4fr 0.8fr 0.8fr;
+    }
+}
+
+
+
 
 
