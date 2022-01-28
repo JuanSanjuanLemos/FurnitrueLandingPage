@@ -1,5 +1,5 @@
 
-@media screen and (max-width:1350px) {
+@media (max-width:1350px) {
     .project-section{
         grid-template-columns: 1.5fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 2fr 2fr;
@@ -35,7 +35,7 @@
 }
 
 
-@media screen and (max-width:500px) {
+@media (max-width:500px) {
     .project-section{
         grid-template-rows: 1fr 0.5fr 0.5fr 1fr 1fr;
     }
