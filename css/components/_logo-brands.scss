@@ -1,8 +1,12 @@
 .logo-brands{
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: center;
     align-items: center;
     gap: 4rem;
     background-color: #f7f7f7;
     margin-top: 3rem;
+
+
 }
